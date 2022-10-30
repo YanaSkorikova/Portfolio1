@@ -1,0 +1,207 @@
+:root {
+  --heading-font-family: "Bodoni Moda", serif;
+  --body-font-family: "Kantumruy Pro", sans-serif;
+  --color-option-1: #4b5668;
+  --color-option-2: #8facca;
+  --color-option-3: #f6f4f2;
+  --color-option-4: #e0cfc2;
+  --color-option-5: #dda882;
+}
+ul {
+  font-family: var(--body-font-family);
+  font-size: 21px;
+}
+h1 {
+  font-size: 90px;
+  line-height: 1.5;
+  font-family: var(--heading-font-family);
+  font-style: italic;
+  font-weight: 600;
+}
+h2 {
+  font-size: 30px;
+  font-family: var(--body-font-family);
+  font-style: oblique;
+  color: var(--color-option-5) !important;
+}
+h4 {
+  font-size: 35px;
+  font-family: var(--body-font-family);
+}
+p {
+  font-size: 18px;
+  font-family: Verdana, sans-serif;;
+  text-align: center;
+}
+img {
+  border: 2px solid #dda882;
+  border-radius: 10px;
+}
+body {
+  background-color: var(--color-option-3) !important;
+}
+
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  color: var(--color-option-5);
+
+}
+.main {
+  background-color: var(--color-option-4);
+  text-align: center;
+  padding: 250px 30px;
+  color: var(--color-option-1);
+}
+.content-container {
+  padding: 136px 30px;
+}
+.content h1 {
+  font-size: 70px;
+  color: var(--color-option-4);
+}
+.content h2 {
+  font-size: 38px;
+  color: var(--color-option-1);
+  padding: 30px 0;
+}
+.bg-light, .container {
+  background-color: var(--color-option-3) !important;
+}
+
+.sub-heading {
+  font-size: 38px;
+  text-align: center;
+  padding: 50px 0;
+  font-family: var(--body-font-family);
+  color: var(--color-option-1);
+}
+.btn-outline-link {
+  --bs-btn-bg: var(--color-option-1);
+  --bs-btn-hover-bg:var(--color-option-5);
+  --bs-btn-color: var(--color-option-5);
+  --bs-btn-hover-color: var(--color-option-1);
+}
+.btn-link {
+  --bs-btn-bg: var(--color-option-1);
+  --bs-btn-color: #fff;
+  --bs-btn-hover-bg: #fff !important;
+  --bs-btn-hover-border-color: var(--color-option-1);
+  --bs-btn-hover-color: var(--color-option-1);
+  --bs-btn-border-radius: 0.5rem;
+  --bs-btn-font-weight: 400;
+}
+.btn-primary {
+  padding: 15px;
+  --bs-btn-bg: var(--color-option-4);
+  --bs-btn-color: var(--color-option-1);
+  --bs-btn-border-color: var(--color-option-2);
+  --bs-btn-hover-border-color: var(--color-option-2);
+  --bs-btn-hover-bg: var(--color-option-1);
+  --bs-btn-font-family: var(--heading-font-family);
+  --bs-btn-hover-color: var(--color-option-4);
+  --bs-btn-font-weight: 700;
+}
+.project-name {
+  font-size: 28px;
+  color: var(--color-option-4);
+}
+
+.project-description {
+  padding: 29px 30px;
+}
+.navbar-brand {
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+}
+.tools {
+  font-size: 24px;
+  color: var(--color-option-1);
+}
+.links {
+  text-decoration: none;
+  color: #2e3348;
+}
+.links:hover {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-heading {
+  -webkit-text-stroke: 1px var(--color-option-1);
+}
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+.network {
+  font-size: 80px;
+  color: var(--color-option-1);
+  padding: 30px;
+}
+.network:hover {
+  font-size: 90px;
+}
+#contact_box {
+text-indent: 70px;
+}
+
+footer {
+  padding: 60px 0;
+}
+footer .contact-box {
+  background: var(--color-option-2);
+  padding: 30px;
+}
+footer .email-link {
+  font-size: 25px;
+  text-decoration: none;
+  color: var(--color-option-4);
+  font-family: var(--body);
+}
+footer .email-link:hover {
+  color: var(--color-option-5);
+}
+footer .social-links i {
+  font-size: 24px;
+  margin: 0 20px;
+  padding: 20px;
+  color: var(--color-option-4);
+  background-color: var(--color-option-2);
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links i:hover {
+  color: var(--color-option-2);
+  background-color: var(--color-option-4);
+}
+
+@media (max-width: 540px) {
+  .main {
+    padding: 190px 30px;
+  }
+  .content-container {
+    padding: 120px 20px;
+  }
+  .content h1 {
+    font-size: 60px;
+  }
+  h1 {
+    font-size: 75px;
+  }
+  .sub-heading {
+    padding: 25px 0px;
+    font-size: 32px;
+  }
+  .project-description {
+    margin-bottom: 0;
+    padding: 5px 15px;
+    text-align: center;
+  }
+  .contact-section i {
+    font-size: 40px;
+  }
+
+  .content h3 {
+    font-size: 20px;
+  }
+}
