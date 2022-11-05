@@ -53,15 +53,15 @@ body {
   color: var(--color-option-1);
 }
 .content-container {
-  padding: 136px 30px;
+  padding: 136px 30px 136px 50px;
 }
 .content h1 {
   font-size: 70px;
-  color: var(--color-option-4);
+  color: var(--color-option-1);
 }
 .content h2 {
   font-size: 38px;
-  color: var(--color-option-1);
+  color: var(--color-option-5) !important;
   padding: 30px 0;
 }
 .bg-light, .container {
@@ -76,6 +76,7 @@ body {
   color: var(--color-option-1);
 }
 .btn-outline-link {
+  font-size: 20px;
   --bs-btn-bg: var(--color-option-1);
   --bs-btn-hover-bg:var(--color-option-5);
   --bs-btn-color: var(--color-option-5);
@@ -103,7 +104,7 @@ body {
 }
 .project-name {
   font-size: 28px;
-  color: var(--color-option-4);
+  color: var(--color-option-1);
 }
 
 .project-description {
@@ -115,7 +116,7 @@ body {
 }
 .tools {
   font-size: 24px;
-  color: var(--color-option-1);
+  color: var(--color-option-5);
 }
 .links {
   text-decoration: none;
@@ -131,6 +132,7 @@ body {
 .contact-section {
   display: flex;
   justify-content: center;
+  padding: 50px;
 }
 
 .network {
@@ -140,22 +142,26 @@ body {
 }
 .network:hover {
   font-size: 90px;
+  color: var(--color-option-5);
 }
 #contact_box {
 text-indent: 70px;
 }
-
+.mt-4 {
+  text-align: left;
+  font-size: 22px;
+}
 footer {
-  padding: 60px 0;
+  padding: 100px 0;
 }
 footer .contact-box {
-  background: var(--color-option-2);
+  background: var(--color-option-5);
   padding: 30px;
 }
 footer .email-link {
   font-size: 25px;
   text-decoration: none;
-  color: var(--color-option-4);
+  color: var(--color-option-1);
   font-family: var(--body);
 }
 footer .email-link:hover {
@@ -165,14 +171,14 @@ footer .social-links i {
   font-size: 24px;
   margin: 0 20px;
   padding: 20px;
-  color: var(--color-option-4);
-  background-color: var(--color-option-2);
+  color: var(--color-option-5);
+  background-color: var(--color-option-1);
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 footer .social-links i:hover {
-  color: var(--color-option-2);
-  background-color: var(--color-option-4);
+  color: var(--color-option-3);
+  background-color: var(--color-option-5);
 }
 
 @media (max-width: 540px) {
@@ -199,9 +205,13 @@ footer .social-links i:hover {
   }
   .contact-section i {
     font-size: 40px;
+
   }
 
   .content h3 {
     font-size: 20px;
+  }
+  .mt-4 {
+    font-size: 15px;
   }
 }
